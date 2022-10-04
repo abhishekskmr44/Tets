@@ -11,6 +11,12 @@ import Bounce from "react-reveal/Bounce";
 import MailIcon from "@mui/icons-material/Mail";
 import { Element } from "react-scroll/modules";
 
+
+
+
+
+
+
 const NIntro = () => {
   useEffect(() => {
     setTimeout(() => {
@@ -57,14 +63,16 @@ const NIntro = () => {
               </Fade>
               <Flip right>
                 <div className="i-resume">
+                  <button> 
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://docs.google.com/document/d/1154u_J3EjgkgGiq0nyWskYZvRX4-FGm-de38RPqXRwQ/edit?usp=sharing"
+                    href="../src/img/AbhishekResume.pdf" download = "AbhishekResume.pdf"
                     className="r-btn"
                   >
                     Resume
                   </a>
+                  </button>
                 </div>
               </Flip>
 
