@@ -10,6 +10,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import Bounce from "react-reveal/Bounce";
 import MailIcon from "@mui/icons-material/Mail";
 import { Element } from "react-scroll/modules";
+import  AbhishekResume from "../../img/AbhishekResume.pdf"
 
 
 
