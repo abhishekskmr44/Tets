@@ -68,7 +68,7 @@ const NIntro = () => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="../src/img/AbhishekResume.pdf" download = "AbhishekResume.pdf"
+                    href="../../img/AbhishekResume.pdf" download = "AbhishekResume.pdf"
                     className="r-btn"
                   > Resume
                   </a>
