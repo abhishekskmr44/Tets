@@ -1,35 +1,35 @@
-import p1 from "./img/orbitz.JPG";
-import p2 from "./img/mytheresa.JPG";
-import p3 from "./img/sephora.JPG";
+import p1 from "./img/spotify_clone.png";
+import p2 from "./img/GETHARVEST_CLONE.png";
+import p3 from "./img/BLUEMERCURY.png";
 
 
 const data = [
   {
     id: 1,
     img: { p1 },
-    link: "https://bucolic-muffin-8abf9f.netlify.app/",
-    gitlink: "https://github.com/KalashThakur/Orbitz",
-    title: "Orbitz.com clone",
-    desc: "Orbitz.com is a an amazing travel website. Also list of hotels, cities and destinations It has a signup page, a login page and a completely functional payment page. Technology used is React JS.",
+    link: "https://polite-licorice-c8e38f.netlify.app/",
+    gitlink: "https://github.com/abhishekskmr44/spotify-clone",
+    title: "Spotify clone",
+    desc: "Spotify is a digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world. Technology used is React JS.",
     tech: ["HTML", "CSS", "JAVASCRIPT, React.Js", "Redux ToolKit", "Material UI"],
   },
   {
     id: 2,
     img: { p2 },
-    link: "https://glittering-cocada-d76c60.netlify.app/",
-    gitlink: "https://github.com/abhishekskmr44/my-theresa",
-    title: "Mytheresa.com clone",
-    desc: "MyTheresa.com is a complete fashion, wardrobe and attire speacialist website. It has a signup page, a login page and a completely functional payment page. Technology used is HTML, CSS & Javascript. Data fetching is also used.",
-    tech: ["HTML", "CSS", "JAVASCRIPT", "ES6"],
+    link: "https://getharvest-masai-clone.netlify.app/",
+    gitlink: "https://github.com/prabhatm39/smooth-dock-1057",
+    title: "Getharvest.com clone",
+    desc: "Harvest is a cloud-based time tracking tool designed for businesses of all sizes. The solution provides timesheet and invoicing features for small businesses and freelancers. Key features include time and expense management, team management, project management, scheduling and invoicing.",
+    tech: ["HTML", "CSS", "JAVASCRIPT", "ES6", "NODEJS", "EXPRESSJS", "MONGODB"],
   },
   {
     id: 3,
     img: { p3 },
-    link: "https://papaya-medovik-778f4e.netlify.app/",
-    gitlink: "https://github.com/Sephora-Clone/Sephora-Online-Beauty-Products",
-    title: "Sephora.com clone",
-    desc: "Sephora.com is a cosmetic website. My project is a clone of the original website. It has a signup page, a login page and a completely functional payment page. Technology used is HTML, CSS & Javascript.",
-    tech: ["HTML", "CSS", "JAVASCRIPT", "ES6"],
+    link: "https://bluemercury.netlify.app/",
+    gitlink: "https://github.com/Divya3419/native-fog-9540",
+    title: "Bluemercury.com clone",
+    desc: "Bluemercury is a chain of American beauty stores founded in 1999 by Marla Malcolm Beck and Barry Beck in Georgetown, Washington, D.C. The stores sell cosmetics, as well as in-store facials and spa treatments.",
+    tech: ["HTML", "CSS", "JAVASCRIPT", "ES6", "REACTJS", "REDUX"],
   },
 ];
 

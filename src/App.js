@@ -3,17 +3,28 @@ import About from "./components/about/About";
 import ProductList from "./components/productList/ProductList";
 import { ThemeContext } from "./context";
 import "./common.css";
+//import { useMediaQuery } from "@mui/material";
 import NIntro from "./components/NIntro/NIntro";
 import Skill from "./components/Skills/Skill";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
+import {TabletMobile}  from './components/tablet-mobile.component'
+import {Mobile} from './components/mobile.component'
+import { useMediaQuery } from 'react-responsive'
 
 function App() {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+  // const isTabletDevice = useMediaQuery({
+  //   query: "(min-device-width: 768px)",
+  // });
+  const isMobileDevice = useMediaQuery({
+    query: "(min-device-width: 480px)",
+  });
 
-  // if you want to show the loader when React loads data again
-
+  const isTabletDevice = useMediaQuery({
+    query: "(min-device-width: 768px)",
+  });
   const hideLoader = (loader) => {
     loader.classList.remove("loader--show");
     loader.classList.add("loader--hide");
@@ -24,8 +35,10 @@ function App() {
       hideLoader(loader);
     }, 1500);
   }, []);
+  
   return (
     <>
+    
       <div
         style={{
           backgroundColor: darkMode ? "#222" : "white",
@@ -40,7 +53,12 @@ function App() {
         <NIntro />
         <About />
         <Skill />
-        <ProductList />
+             
+{/* {isMobileDevice && <Mobile />}
+  {isTabletDevice && <>
+  <TabletMobile />
+  </>} */}
+  <ProductList />
         <Footer />
       </div>
     </>

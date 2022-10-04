@@ -48,10 +48,10 @@ const NIntro = () => {
                     I'm <span className="span-name">Abhishek Sukumar</span>
                   </p>
                   <p data-aos="fade-right" className="i-text-desc">
-                    A full-stack React Js developer trained
+                    I'm a full-stack React Js developer trained
                     by Masai School, Bengaluru. I have a passion to create
                     useful projects and systems which can contribute in 
-                    everyone's wellbeing. I go to full extent in execution.
+                    everyone's wellbeing. I have interest in dark web also.
                   </p>
                 </div>
               </Fade>
