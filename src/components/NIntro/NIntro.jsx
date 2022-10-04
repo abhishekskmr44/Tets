@@ -69,8 +69,7 @@ const NIntro = () => {
                     rel="noreferrer"
                     href="../src/img/AbhishekResume.pdf" download = "AbhishekResume.pdf"
                     className="r-btn"
-                  >
-                    Resume
+                  > Resume
                   </a>
                   </button>
                 </div>
