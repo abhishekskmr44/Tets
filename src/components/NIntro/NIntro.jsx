@@ -10,7 +10,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import Bounce from "react-reveal/Bounce";
 import MailIcon from "@mui/icons-material/Mail";
 import { Element } from "react-scroll/modules";
-import  AbhishekResume from "../../img/AbhishekResume.pdf"
 
 
 
@@ -68,7 +67,7 @@ const NIntro = () => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="../../img/AbhishekResume.pdf" download = "AbhishekResume.pdf"
+                    href="https://docs.google.com/document/d/1154u_J3EjgkgGiq0nyWskYZvRX4-FGm-de38RPqXRwQ/edit?usp=sharing" 
                     className="r-btn"
                   > Resume
                   </a>
