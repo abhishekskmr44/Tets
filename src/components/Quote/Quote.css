@@ -1,0 +1,41 @@
+.quote-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.quote {
+  flex: 4;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 1000;
+}
+
+.empty {
+  flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .quote {
+    flex: 1;
+    padding: 20px;
+  }
+  .quote h1 {
+    font-size: 80px;
+  }
+  .empty {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .quote {
+    max-width: 100%;
+    padding: 0px;
+  }
+  .quote h1 {
+    font-size: 50px;
+    word-wrap: break-word;
+  }
+}
