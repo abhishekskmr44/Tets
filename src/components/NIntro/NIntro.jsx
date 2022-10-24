@@ -67,7 +67,7 @@ const NIntro = () => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://drive.google.com/file/d/1aLuVEJFHeifPz2-khr2767XNw7MsQami/view?usp=sharing" 
+                    href="https://tinyurl.com/ambb3ca5" 
                     className="r-btn"
                   > Resume
                   </a>
